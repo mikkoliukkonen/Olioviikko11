@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="?android:attr/selectableItemBackground">
+
+    <TextView
+        android:id="@+id/ContactNameText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Etunimi Sukunimi"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/ContactNumberText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Puhelinnumero"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/ContactGroupText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ryhmän nimi"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/ContactDetailsButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Näytä tiedot" />
+
+    <Button
+        android:id="@+id/ContactDeleteButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Poista"
+        android:textColor="#FF0000" />
+</LinearLayout>

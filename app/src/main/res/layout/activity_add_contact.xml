@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/FirstNameEdit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Etunimi" />
+
+    <EditText
+        android:id="@+id/LastNameEdit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Sukunimi" />
+
+    <EditText
+        android:id="@+id/PhoneNumberEdit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Puhelinnumero" />
+
+    <RadioGroup
+        android:id="@+id/ContactTypeRadioGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/PersonalRadioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Henkilökohtainen" />
+
+        <RadioButton
+            android:id="@+id/WorkRadioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Työ" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/AddContactButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Lisää yhteystieto" />
+</LinearLayout>
